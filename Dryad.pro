@@ -14,11 +14,17 @@ SOURCES += main.cpp\
     drymenubar.cpp \
     drystatusbar.cpp \
     drymainwindow.cpp \
-    drytoolbar.cpp
+    drytoolbar.cpp \
+    drycentralwidget.cpp \
+    dryplacesdock.cpp \
+    dryinformationdock.cpp
 
 HEADERS  += \
     config.h \
     drymenubar.h \
     drystatusbar.h \
     drymainwindow.h \
-    drytoolbar.h
+    drytoolbar.h \
+    drycentralwidget.h \
+    dryplacesdock.h \
+    dryinformationdock.h
