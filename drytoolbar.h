@@ -7,8 +7,30 @@ namespace dryad
 {
 	class dryToolBar : public QToolBar
 	{
+		Q_OBJECT
+
+	private:
+		QAction *newTab;
+		QAction *newWindow;
+
+		QAction *createFolder;
+
+		QAction *goUp;
+		QAction *goBack;
+		QAction *goForward;
+
+		QAction *iconsMode;
+		QAction *detailsMode;
+		QAction *columnsMode;
+
+		QAction *previewFiles;
+		QAction *splitView;
+
 	public:
 		dryToolBar();
+
+	private:
+		void createActions();
 	};
 }
 
