@@ -32,6 +32,7 @@ namespace dryad
 	}
 	void dryMenuBar::createActions()
 	{
-
+		this->fileQuit = new QAction(tr("Quit"), this->fileMenu);
+		this->fileMenu->addAction(this->fileQuit);
 	}
 }

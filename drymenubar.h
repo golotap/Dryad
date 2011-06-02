@@ -18,6 +18,8 @@ namespace dryad
 		QMenu *settingsMenu;
 		QMenu *helpMenu;
 
+		QAction *fileQuit;
+
 	public:
 		dryMenuBar();
 
