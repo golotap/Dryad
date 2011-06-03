@@ -5,12 +5,18 @@
 
 namespace dryad
 {
-	class dryCentralWidget : public QWidget
+	class dryCentralWidget : public QTabWidget
 	{
 		Q_OBJECT
 
+	private:
+		QWidget *defaultWidget;
+
 	public:
 		dryCentralWidget();
+
+	private:
+		void createDefaultWidget();
 	};
 }
 

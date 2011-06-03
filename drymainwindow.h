@@ -10,6 +10,7 @@
 
 #include "dryplacesdock.h"
 #include "dryinformationdock.h"
+#include "dryterminaldock.h"
 
 namespace dryad
 {
@@ -25,6 +26,7 @@ namespace dryad
 
 		dryPlacesDock *mainPlacesDock;
 		dryInformationDock *mainInformationDock;
+		dryTerminalDock *mainTerminalDock;
 
 	public:
 		dryMainWindow();
@@ -37,6 +39,7 @@ namespace dryad
 
 		void createPlacesDock();
 		void createInformationDock();
+		void createTerminalDock();
 	};
 }
 #endif // DRYMAINWINDOW_H

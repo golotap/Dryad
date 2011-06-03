@@ -11,6 +11,7 @@ namespace dryad
 
 		this->createPlacesDock();
 		this->createInformationDock();
+		this->createTerminalDock();
 	}
 	void dryMainWindow::createMenuBar()
 	{
@@ -41,5 +42,10 @@ namespace dryad
 	{
 		this->mainInformationDock = new dryInformationDock();
 		this->addDockWidget(Qt::RightDockWidgetArea, this->mainInformationDock);
+	}
+	void dryMainWindow::createTerminalDock()
+	{
+		this->mainTerminalDock = new dryTerminalDock();
+		this->addDockWidget(Qt::BottomDockWidgetArea, this->mainTerminalDock);
 	}
 }

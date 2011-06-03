@@ -17,7 +17,8 @@ SOURCES += main.cpp\
     drytoolbar.cpp \
     drycentralwidget.cpp \
     dryplacesdock.cpp \
-    dryinformationdock.cpp
+    dryinformationdock.cpp \
+    dryterminaldock.cpp
 
 HEADERS  += \
     config.h \
@@ -27,4 +28,5 @@ HEADERS  += \
     drytoolbar.h \
     drycentralwidget.h \
     dryplacesdock.h \
-    dryinformationdock.h
+    dryinformationdock.h \
+    dryterminaldock.h
